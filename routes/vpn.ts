@@ -2,7 +2,7 @@ import { Handlers } from "$fresh/server.ts";
 
 export const handler: Handlers = {
   async GET(request) {
-    const targetUrl = "https://join.havefun.store/iam/hW80StXBsWZCbBCs";
+    const targetUrl = "https://httpbin.org/get";
 
     const modifiedHeaders = new Headers();
 
