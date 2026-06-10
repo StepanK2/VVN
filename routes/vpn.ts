@@ -2,7 +2,7 @@ import { Handlers } from "$fresh/server.ts";
 
 export const handler: Handlers = {
   async GET(request) {
-    const targetUrl = "ТВОЯ_ССЫЛКА_ПОДПИСКИ";
+    const targetUrl = "https://join.havefun.store/iam/hW80StXBsWZCbBCs";
 
     const modifiedHeaders = new Headers();
 
